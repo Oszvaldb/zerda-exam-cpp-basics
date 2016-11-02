@@ -18,10 +18,15 @@ using namespace std;
  *   9 * 5 = 45
  *   10 * 5 = 50
  */
-
+void multi (int base) {
+  for (int i = 1; i < 11; i++) {
+	cout << i << " * " << base << " = " << i * base << endl;
+  }
+}
 
 int main() {
-
+  int base = 5;
+  multi(base);
   return 0;
 }
 
