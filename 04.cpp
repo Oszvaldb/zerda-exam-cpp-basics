@@ -8,9 +8,9 @@ using namespace std;
 
 void div_counter(int number, int *pointer_div) {
   for (int i = 1; i <= number; i++) {
-	if (number % i == 0) {
+    if (number % i == 0) {
 	  *pointer_div += 1;
-	}
+    }
   }
 }
 

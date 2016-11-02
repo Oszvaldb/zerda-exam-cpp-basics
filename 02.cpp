@@ -20,7 +20,7 @@ using namespace std;
  */
 void multi (int base) {
   for (int i = 1; i < 11; i++) {
-	cout << i << " * " << base << " = " << i * base << endl;
+    cout << i << " * " << base << " = " << i * base << endl;
   }
 }
 
